@@ -2,7 +2,7 @@ var express=require('express');
 
 var app=express();
 
-app.get('/',(req, res){
+app.get('/',(req, res)=>{
     res.send("Hello this is a demo project for Minishift");
 });
 var server = app.listen(8080, function(){
